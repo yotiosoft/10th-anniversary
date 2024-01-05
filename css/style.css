@@ -156,11 +156,11 @@ a.anchor{
 
 /* メインとなるコンテンツ */
 .main_wrap {
-  width: 1190px;
   max-width: 100%;
   margin: 0px auto;
   display: -webkit-flex;
   display: flex;
+  justify-content: center;
 }
 
 #fullcolumn {
@@ -193,7 +193,7 @@ a.anchor{
 }
 
 #sidebar {
-  width: 15%;
+  width: 150px;
   margin-left: 10px;
   position: relative;
   padding-top: 10px;
@@ -243,118 +243,6 @@ a.anchor{
 
 #sidebar_menu a:hover {
   color: #5bd1d7;
-}
-
-#content {
-  display: block;
-  width: 85%;
-  max-width: 100%;
-  margin: 0px 0px 10px 10px;
-}
-
-#content_h {
-  background: #16a085;
-  padding: 0.5em;
-  color: #ffffff;
-  margin-right: 10px;
-  margin-bottom: 20px;
-  font-size: 18px;
-}
-
-#content_h1 {
-  padding: 0.5em 0.5em 0.5em 0;
-  margin-right: 10px;
-  width: 100%;
-  height: 30px;
-  line-height: 30px;
-  display: flex;
-  font-size: 36px;
-
-  font-family: 'Work Sans', sans-serif;
-  letter-spacing: 2px;
-}
-
-#content_h2 {
-  padding: 0.5em 0.5em 0.5em 0;
-  margin-right: 10px;
-  width: 100%;
-  height: 30px;
-  line-height: 30px;
-  display: flex;
-  font-size: 18px;
-}
-
-#content_h2_box {
-  width:  10px;
-  height: 30px;
-  margin-right: 10px;
-}
-
-#content_h3 {
-  font-weight:bolder;
-  margin-top: 10px;
-  margin-bottom: 5px;
-  font-size: 18px;
-}
-
-#content_main {
-  margin-left: 10px;
-  margin-bottom: 30px;
-}
-
-#content_flat img {
-  max-width: 49%;
-  padding: 5px 0px 5px 0px;
-}
-
-#content_sub {
-  margin-top: 10px;
-  margin-left: 15px;
-  margin-bottom: 30px;
-}
-
-#content_sub2 {
-  margin-left: 15px;
-}
-
-#content a {
-  color: #3498db;
-  text-decoration: none;
-
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-#content a:hover {
-  color: #5bd1d7;
-}
-
-#content table {
-  border-collapse: collapse;
-  margin: 30px 0px 30px 0px;
-}
-
-#content tr {
-  border-top: 1px solid #dadada;
-  border-bottom: 1px solid #dadada;
-}
-
-#content td {
-  padding: 15px 15px 15px 15px;
-}
-
-#content table .nowrap {
-  white-space: nowrap;
-}
-
-#content li {
-  margin: 10px 0px 10px 0px;
-}
-
-#content ul {
-  margin-left: 20px;
 }
 
 .column {
