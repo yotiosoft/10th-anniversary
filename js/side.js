@@ -41,7 +41,7 @@ $(function($){
 
         // 現在の位置
         var client_hight = 0;
-        var scrollTop = $(document).scrollTop() + client_hight + 30;
+        var scrollTop = $(document).scrollTop() + client_hight;
         // メインコンテンツ最後尾
         var content_bottom = content.offset().top + content.height();
 
