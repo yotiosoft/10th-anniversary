@@ -100,7 +100,7 @@ a.anchor{
 .pageheader {
   width: 100%;
   padding-bottom: 10px;
-  height: 150px;
+  height: 250px;
 
   display: flex;
   justify-content: center;
@@ -114,17 +114,37 @@ a.anchor{
 
 .pageheader_wrap {
   width: 100%;
-  min-width: 370px;
 
   position: relative;
   margin: 0px auto;
+  vertical-align: middle;
 
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
 
-  top: 10px;
   letter-spacing: 2px;
+
+  overflow: hidden;  
+  .pageheader_title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-100%);
+    color: #fff;
+    z-index: 1;
+    width: 100%;
+  }
+
+  .pageheader_summary {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-0%);
+    color: #fff;
+    z-index: 1;
+    width: 100%;
+  }
 }
 
 .pageheader_logo_wrap {
@@ -154,6 +174,14 @@ a.anchor{
   color: #FFFFFF;
   font-size: 20px;
   line-height: 20px;
+}
+
+.pageheader_title_wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* メインとなるコンテンツ */

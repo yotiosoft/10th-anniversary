@@ -6,16 +6,19 @@
 }
 
 picture {
-    width: fit-content;
     margin: 20px;
 }
 
 source {
+    width: 100%;
+    max-width: 600px;
     max-height: 500px;
     width: auto;
 }
 
 img {
+    width: 100%;
+    max-width: 600px;
     max-height: 500px;
     width: auto;
 }
